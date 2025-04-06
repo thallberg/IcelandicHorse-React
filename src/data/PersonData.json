@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Anna Eriksson",
+      "image": "../../assets/about/person1.webp",
+      "alt": "Anna Eriksson - Hästskötare och guide"
+    },
+    {
+      "name": "Johan Nilsson",
+      "image": "../../assets/about/person1.webp",
+      "alt": "Johan Nilsson - Erfaren ryttare och instruktör"
+    },
+    {
+      "name": "Emma Larsson",
+      "image": "../../assets/about/person1.webp",
+      "alt": "Emma Larsson - Specialiserad på turridning"
+    },
+    {
+      "name": "Martin Sjöberg",
+      "image": "../../assets/about/person1.webp",
+      "alt": "Martin Sjöberg - Hästansvarig och hovslagare"
+    }
+  ]
+  

@@ -1,0 +1,75 @@
+[
+    {
+      "name": "Emma L.",
+      "review": "Turridningen var helt magisk! Fantastisk natur och trygga hästar. Rekommenderas varmt!",
+      "location": "Göteborg",
+      "rating": 5
+    },
+    {
+      "name": "Jonas P.",
+      "review": "Vi bokade en weekend med övernattning och blev positivt överraskade av den goda maten och den mysiga miljön.",
+      "location": "Malmö",
+      "rating": 4
+    },
+    {
+      "name": "Sofia K.",
+      "review": "Personalen var supertrevlig och gjorde att jag som nybörjare kände mig trygg hela turen.",
+      "location": "Stockholm",
+      "rating": 5
+    },
+    {
+      "name": "Anders B.",
+      "review": "Fikan efter ridturen var pricken över i! Tack för en toppenförmiddag.",
+      "location": "Uppsala",
+      "rating": 4
+    },
+    {
+      "name": "Lisa H.",
+      "review": "En perfekt aktivitet för hela familjen. Vi kommer definitivt tillbaka!",
+      "location": "Örebro",
+      "rating": 5
+    },
+    {
+      "name": "Maja R.",
+      "review": "Fantastisk upplevelse! Jag uppskattade verkligen möjligheten att anpassa ridturen efter mitt önskemål.",
+      "location": "Helsingborg",
+      "rating": 5
+    },
+    {
+      "name": "Niklas D.",
+      "review": "Övernattningen var både avkopplande och rolig. Maten var dessutom jättegod!",
+      "location": "Jönköping",
+      "rating": 4
+    },
+    {
+      "name": "Camilla Z.",
+      "review": "Hästarna var välskötta och personalen professionell. Jag kände mig i trygga händer.",
+      "location": "Norrköping",
+      "rating": 5
+    },
+    {
+      "name": "Oskar F.",
+      "review": "Jag bokade en privatlektion och lärde mig mer än jag trodde på en timme. Väldigt kunniga instruktörer!",
+      "location": "Västerås",
+      "rating": 5
+    },
+    {
+      "name": "Frida M.",
+      "review": "Ett underbart sätt att komma bort från stadens stress. Tystnad, natur och hästar. Bättre än så blir det inte.",
+      "location": "Luleå",
+      "rating": 5
+    },
+    {
+      "name": "Maja R.",
+      "review": "Fantastisk upplevelse! Jag uppskattade verkligen möjligheten att anpassa ridturen efter mitt önskemål.",
+      "location": "Helsingborg",
+      "rating": 5
+    },
+    {
+      "name": "Anders B.",
+      "review": "Fikan efter ridturen var pricken över i! Tack för en toppenförmiddag.",
+      "location": "Uppsala",
+      "rating": 4
+    }
+  ]
+  

@@ -1,0 +1,18 @@
+[
+    {
+        "title": "Personlig Upplevelse",
+        "body": "Vår erfarna personal ser till att varje tur anpassas efter dina önskemål och din ridvana – oavsett om du är nybörjare eller erfaren ryttare.",
+        "icon": "HiCheckCircle"
+    },
+    {
+        "title": "Hästar för Alla",
+        "body": "Vi har lugna och trygga hästar som passar alla nivåer. Oavsett om du är nybörjare eller van ryttare hittar vi en häst som passar just dig.",
+        "icon": "HiLightBulb"
+    },
+    {
+        "title": "Magiska Naturupplevelser",
+        "body": "Upptäck fantastiska ridvägar genom skogar, över ängar och längs sjöar. Våra turer bjuder på natursköna vyer och oförglömliga upplevelser.",
+        "icon": "HiPuzzle"
+    }
+]
+
