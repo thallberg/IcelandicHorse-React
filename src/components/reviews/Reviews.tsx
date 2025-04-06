@@ -1,10 +1,15 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import reviews from "../../data/Reviews.json";
-import { HiStar, HiOutlineStar, HiChevronLeft, HiChevronRight } from "react-icons/hi2";
+import {
+  HiStar,
+  HiOutlineStar,
+  HiChevronLeft,
+  HiChevronRight,
+} from "react-icons/hi2";
 
 const Reviews = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const reviewsToShow = 3; // Ändra till 3 recensioner per visning
+  const reviewsToShow = 3;
 
   const renderStars = (count: number) => {
     return (
@@ -38,24 +43,28 @@ const Reviews = () => {
         Vad våra besökare säger
       </h2>
       <div className="relative">
-        {/* Grid Layout - sträcker sig över hela bredden */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-6">
-          {reviews.slice(currentIndex, currentIndex + reviewsToShow).map((review, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-2xl p-6 shadow-lg text-center w-full"
-            >
-              {renderStars(review.rating)}
-              <p className="text-lg text-gray-700 italic">"{review.review}"</p>
-              <div className="mt-4">
-                <h3 className="text-amber-900 font-semibold">{review.name}</h3>
-                <p className="text-gray-500 text-sm">{review.location}</p>
+          {reviews
+            .slice(currentIndex, currentIndex + reviewsToShow)
+            .map((review, index) => (
+              <div
+                key={index}
+                className="bg-white rounded-2xl p-6 shadow-lg text-center w-full"
+              >
+                {renderStars(review.rating)}
+                <p className="text-lg text-gray-700 italic">
+                  "{review.review}"
+                </p>
+                <div className="mt-4">
+                  <h3 className="text-amber-900 font-semibold">
+                    {review.name}
+                  </h3>
+                  <p className="text-gray-500 text-sm">{review.location}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
 
-        {/* Navigation Buttons */}
         <div className="absolute inset-y-1/2 left-0 flex items-center justify-center p-4">
           <button
             className="text-amber-900 bg-white p-2 rounded-full shadow-md hover:bg-amber-100"

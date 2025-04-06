@@ -1,15 +1,9 @@
-import React from "react";
-import bookingContent from "../../data/BookingInfoContent.json"; // Se till att vägen är rätt till JSON-filen
+import bookingContent from "../../data/BookingInfoContent.json";
 import StatCard from "../statcard/StatCard";
 import { IconType } from "react-icons";
-import {
-  HiCog8Tooth,
-  HiMiniCake,
-  HiPhoto,
-} from "react-icons/hi2";
+import { HiCog8Tooth, HiMiniCake, HiPhoto } from "react-icons/hi2";
 import { MdFastfood } from "react-icons/md";
 
-// Skapa en iconMap för att mappa ikonerna
 const iconMap: Record<string, IconType> = {
   MdFastfood: MdFastfood,
   HiCog8Tooth: HiCog8Tooth,

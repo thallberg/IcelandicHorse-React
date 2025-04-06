@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../components/hero-image/HeroImage";
 import aboutHeader from "../assets/about/abouthero.webp";
 import serviceData from "../data/Services.json";

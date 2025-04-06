@@ -1,23 +1,21 @@
-import React from "react";
 import { HiFire, HiScale, HiBell } from "react-icons/hi";
 import { FaHorse } from "react-icons/fa";
 import StatCard from "../statcard/StatCard";
 import Data from "../../data/StatsContent.json";
 import { IconType } from "react-icons";
 
-const iconMap: Record<string,  IconType> =
-  {
-    HiFire: HiFire, 
-    HiBell: HiBell,
-    HiScale: HiScale,
-    FaHorse: FaHorse
-  };
+const iconMap: Record<string, IconType> = {
+  HiFire: HiFire,
+  HiBell: HiBell,
+  HiScale: HiScale,
+  FaHorse: FaHorse,
+};
 
 type StatItem = {
   title: string;
   body: string;
   icon: keyof typeof iconMap;
-}
+};
 
 const data = Data as unknown as StatItem[];
 

@@ -1,4 +1,3 @@
-import React from "react";
 import HeroImage from "../components/hero-image/HeroImage";
 import Info from "../components/info-article/Info";
 import ImageContent from "../components/Image-section/ImageContent";
@@ -18,12 +17,10 @@ const Home = () => {
       />
 
       <div className="flex flex-col lg:flex-row items-stretch gap-4 pt-4 pb-4">
-        {/* Info-sektionen */}
         <div className="w-full lg:w-1/2 flex">
           <Info className="flex-1" />
         </div>
 
-        {/* Bild-sektionen */}
         <div className="w-full lg:w-1/2 flex">
           <ImageContent
             image={homeImageContent}
@@ -34,19 +31,17 @@ const Home = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row items-stretch gap-4 pt-4 pb-4">
-        {/* Events-sektionen */}
         <div className="w-full lg:w-1/2 flex">
           <Events className="flex-1" />
         </div>
 
-        {/* Calendar-sektionen */}
         <div className="w-full lg:w-1/2 flex lg:order-first">
           <Calendar className="flex-1" />
         </div>
       </div>
 
       <div>
-        <CustomerContent/>
+        <CustomerContent />
       </div>
     </div>
   );

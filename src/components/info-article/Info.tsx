@@ -1,15 +1,13 @@
-import React from "react";
 import InfoArticle from "./InfoArticle";
 import { HiCheckCircle, HiLightBulb, HiPuzzle } from "react-icons/hi";
 import Data from "../../data/infoAboutHome.json";
 import { IconType } from "react-icons";
 
-const iconMap: Record<string, IconType> =
-  {
-    HiCheckCircle: HiCheckCircle,
-    HiLightBulb: HiLightBulb,
-    HiPuzzle: HiPuzzle
-  };
+const iconMap: Record<string, IconType> = {
+  HiCheckCircle: HiCheckCircle,
+  HiLightBulb: HiLightBulb,
+  HiPuzzle: HiPuzzle,
+};
 
 type InfoItem = {
   title: string;

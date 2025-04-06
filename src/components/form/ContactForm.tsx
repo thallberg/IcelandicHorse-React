@@ -1,9 +1,6 @@
-import React from "react";
-
 const ContactForm = () => {
   return (
     <section className="bg-white p-8 rounded-lg shadow-md w-full max-w-lg text-black z-20">
-      {/* Formuläret visas ovanför titeln */}
       <form className="p-8 rounded-lg  text-black z-20">
         <label className="block mb-2 font-semibold">Namn</label>
         <input

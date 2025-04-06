@@ -52,7 +52,7 @@ const Calendar = ({ className }: CalendarProps) => {
           week.push(day);
           day++;
         } else {
-          week.push(null); // Fyller på tomma dagar i början eller slutet av månaden
+          week.push(null);
         }
       }
       weeks.push(week);
@@ -76,7 +76,6 @@ const Calendar = ({ className }: CalendarProps) => {
           ? e.target.getBoundingClientRect()
           : { top: 0, left: 0 };
 
-      // Beräkna och justera positionen för popupen
       const popupTop = rect.top + 40;
       const popupLeft = rect.left + 10;
 
@@ -116,11 +115,14 @@ const Calendar = ({ className }: CalendarProps) => {
 
   return (
     <>
-      <section className={`p-8 bg-gray-100 shadow-lg lg:rounded-2xl text-amber-900 ${className}`}>
+      <section
+        className={`p-8 bg-gray-100 shadow-lg lg:rounded-2xl text-amber-900 ${className}`}
+      >
         <div className="text-center p-4 lg:flex lg:items-center lg:justify-center lg:h-full">
           <div>
-            <h1 className="text-4xl font-bold mb-14 text-amber-900">Kalender</h1>
-            {/* Månadsnavigation */}
+            <h1 className="text-4xl font-bold mb-14 text-amber-900">
+              Kalender
+            </h1>
             <div className="flex justify-center items-center mb-8">
               <button
                 onClick={handlePreviousMonth}
@@ -142,7 +144,6 @@ const Calendar = ({ className }: CalendarProps) => {
               </button>
             </div>
 
-            {/* Kalendern */}
             <div className="grid grid-cols-7 gap-4 mb-8">
               {["Mån", "Tis", "Ons", "Tor", "Fre", "Lör", "Sön"].map(
                 (day, index) => (
@@ -186,7 +187,6 @@ const Calendar = ({ className }: CalendarProps) => {
         </div>
       </section>
 
-      {/* Popup Dialog */}
       {selectedEvent && popupPosition && (
         <div
           ref={popupRef}

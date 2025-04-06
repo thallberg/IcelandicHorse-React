@@ -1,15 +1,13 @@
-import React from "react";
 import { HiUserGroup, HiUser, HiHome } from "react-icons/hi";
 import Data from "../../data/ServicesCardHome.json";
 import { IconType } from "react-icons";
 import InfoArticle from "../info-article/InfoArticle";
 
-const iconMap: Record<string, IconType> =
-  {
-    HiUserGroup: HiUserGroup,
-    HiUser: HiUser,
-    HiHome: HiHome
-  };
+const iconMap: Record<string, IconType> = {
+  HiUserGroup: HiUserGroup,
+  HiUser: HiUser,
+  HiHome: HiHome,
+};
 
 type InfoItem = {
   title: string;
@@ -41,4 +39,4 @@ const Events = ({ className }: { className?: string }) => {
   );
 };
 
-export default Events
+export default Events;

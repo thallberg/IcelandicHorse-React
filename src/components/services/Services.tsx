@@ -1,5 +1,3 @@
-import React from "react";
-
 type ServiceProps = {
   title: string;
   body: string;
@@ -18,7 +16,9 @@ const Services = ({ title, body, price, image, className }: ServiceProps) => {
       />
       <h2 className="mt-2 font-semibold text-xl text-amber-900">{title}</h2>
       <p className="text-lg text-gray-700">{body}</p>
-      <p className="mt-2 text-lg font-bold text-green-700">Pris: {price} / Person</p>
+      <p className="mt-2 text-lg font-bold text-green-700">
+        Pris: {price} / Person
+      </p>
     </section>
   );
 };
