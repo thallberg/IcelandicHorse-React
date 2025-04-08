@@ -97,7 +97,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`fixed top-0 left-0 h-full w-full bg-amber-600/95 z-50 transform transition-all duration-500 ease-in-out ${
+        className={`fixed top-0 left-0 h-full w-full bg-amber-700/95 z-50 transform transition-all duration-500 ease-in-out ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
         style={{ marginTop: scrolled ? "4rem" : "5.5rem" }}

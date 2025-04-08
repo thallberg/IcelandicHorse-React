@@ -29,19 +29,25 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-2 self-center">Följ oss</h3>
           <div className="flex space-x-6 mt-2">
             <a
-              href="#"
+              href="https://www.facebook.com"
+              target="_blank"
+              aria-label="Besök oss på facebook"
               className="text-amber-100 hover:text-amber-600 text-2xl transition"
             >
               <FaFacebook />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com"
+              target="_blank"
+              aria-label="Besök oss på instagram"
               className="text-amber-100 hover:text-amber-600 text-2xl transition"
             >
               <FaInstagram />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com"
+              target="_blank"
+              aria-label="Besök oss på linkedin"
               className="text-amber-100 hover:text-amber-600 text-2xl transition"
             >
               <FaLinkedin />

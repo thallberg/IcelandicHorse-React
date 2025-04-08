@@ -173,8 +173,8 @@ const Calendar = ({ className }: CalendarProps) => {
                           : ""
                       } ${
                         day && (j === 5 || j === 6)
-                          ? "text-red-500"
-                          : "text-gray-700"
+                          ? "text-red-800"
+                          : "text-gray-900"
                       }`}
                     >
                       {day}
