@@ -38,18 +38,18 @@ const Reviews = () => {
   };
 
   return (
-    <section className="bg-blue-100 p-8 shadow-md py-12 mb-4">
+    <section className="bg-blue-100 p-8 shadow-md py-12 mb-4 flex flex-col justify-center">
       <h2 className="text-2xl font-bold text-center text-amber-900 mb-8">
         Vad våra besökare säger
       </h2>
       <div className="relative">
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-6 md:min-h-90 place-content-center">
           {reviews
             .slice(currentIndex, currentIndex + reviewsToShow)
             .map((review, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 shadow-lg text-center w-full"
+                className="bg-white rounded-2xl p-6 shadow-lg text-center w-full flex flex-col justify-between"
               >
                 {renderStars(review.rating)}
                 <p className="text-lg text-gray-700 italic">
