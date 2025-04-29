@@ -32,7 +32,7 @@ const Footer = () => {
               href="https://www.facebook.com"
               target="_blank"
               aria-label="Besök oss på facebook"
-              className="text-amber-100 hover:text-amber-600 text-2xl transition"
+              className="text-amber-100 hover:text-blue-400 text-2xl transition"
             >
               <FaFacebook />
             </a>
@@ -40,7 +40,7 @@ const Footer = () => {
               href="https://www.instagram.com"
               target="_blank"
               aria-label="Besök oss på instagram"
-              className="text-amber-100 hover:text-amber-600 text-2xl transition"
+              className="text-amber-100 hover:text-orange-400 text-2xl transition"
             >
               <FaInstagram />
             </a>
@@ -48,7 +48,7 @@ const Footer = () => {
               href="https://www.linkedin.com"
               target="_blank"
               aria-label="Besök oss på linkedin"
-              className="text-amber-100 hover:text-amber-600 text-2xl transition"
+              className="text-amber-100 hover:text-blue-400 text-2xl transition"
             >
               <FaLinkedin />
             </a>

@@ -5,7 +5,7 @@ import { GiHorseHead } from "react-icons/gi";
 import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState<Boolean>(false);
+  const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
 

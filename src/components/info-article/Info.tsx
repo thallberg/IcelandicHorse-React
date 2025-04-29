@@ -25,7 +25,7 @@ const Info = ({ className }: { className?: string }) => {
       <h1 className="flex justify-center p-8 text-4xl text-amber-900">
         Låt Äventyret Börja
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-1 gap-2">
         {data.map((item, index) => (
           <InfoArticle
             key={index}
