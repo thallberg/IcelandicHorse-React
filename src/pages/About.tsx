@@ -52,6 +52,8 @@ const About = () => {
               name={person.name}
               alt={person.alt}
               className="flex-1"
+              personinfo={person.personinfo}
+              mail={person.mail}
             />
           ))}
         </div>

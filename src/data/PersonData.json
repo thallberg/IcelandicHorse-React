@@ -2,22 +2,31 @@
     {
       "name": "Anna Eriksson",
       "image": "../../assets/about/person1.webp",
-      "alt": "Anna Eriksson - Hästskötare och guide"
+      "alt": "Anna Eriksson - Hästskötare och guide",
+      "personinfo": "Hästskötare och guide",
+      "mail": "test@mail.com"
+      
     },
     {
       "name": "Johan Nilsson",
       "image": "../../assets/about/person1.webp",
-      "alt": "Johan Nilsson - Erfaren ryttare och instruktör"
+      "alt": "Johan Nilsson - Erfaren ryttare och instruktör",
+      "personinfo": "Erfaren ryttare och instruktör",
+      "mail": "test@mail.com"
     },
     {
       "name": "Emma Larsson",
       "image": "../../assets/about/person1.webp",
-      "alt": "Emma Larsson - Specialiserad på turridning"
+      "alt": "Emma Larsson - Specialiserad på turridning",
+      "personinfo": "Specialiserad på turridning",
+      "mail": "test@mail.com"
     },
     {
       "name": "Martin Sjöberg",
       "image": "../../assets/about/person1.webp",
-      "alt": "Martin Sjöberg - Hästansvarig och hovslagare"
+      "alt": "Martin Sjöberg - Hästansvarig och hovslagare",
+      "personinfo": "Hästansvarig och hovslagare",
+      "mail": "test@mail.com"
     }
   ]
   
